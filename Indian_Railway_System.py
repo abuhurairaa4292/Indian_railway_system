@@ -21,3 +21,38 @@ print("The data type of train_number: ",type(train_number))
 print("the data type of ticket price: ",type(ticket_price))
 print("the data typr of is_ac_available: ",type(is_ac_available))
 print("the data type of seat_numbers: ",type(seat_numbers))
+
+  # Getting passenger information
+print("=== Indian railway Booking system ===")
+passenger_name = input("Enter passenger name: ")
+age = int(input("Enter age: "))
+destination = input("Enter destination: ")
+
+# Display booking confirmation
+print("/n=== Booking Details === ")
+print(f"Passenger: {passenger_name}")
+print(f"Age: {age}")
+print(f"Destination: {destination}")
+print(f"Booking Confirmed!") 
+
+#Arthimetic opratiors
+
+base_price = 1500
+service_charge = 100
+total_price = base_price + service_charge
+
+print(f"Base Price: ₹{base_price}")
+print(f"Service charge: ₹{service_charge}")
+print(f"Total price: ₹{total_price}")
+
+#Comparison operators
+passenger_age = 25
+senior_citizen_age = 60
+is_senior = passenger_age >= senior_citizen_age
+
+print(f"/nIs passenger senior citizen? {is_senior}")
+
+
+
+
+
